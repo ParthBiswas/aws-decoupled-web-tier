@@ -21,8 +21,6 @@ By decoupling the static media from the compute instance, this architecture redu
 * **Amazon EC2:** Provisioned and configured a Linux virtual machine to act as the primary web server.
 * **Amazon S3:** Configured object-level and bucket-level permissions to securely host and publicly serve static assets.
 
----
-
 
 ## 📸 Implementation Screenshots
 
@@ -41,8 +39,10 @@ By decoupling the static media from the compute instance, this architecture redu
 <img src="images/Security_Group.png">
 
 ### 3. Storage (Amazon S3)
-**S3 Bucket & Object Offloading:**
+**S3 Object Offloading:**
 <img src="images/S3_object.png">
+
+**S3 Bucket Offloading:**
 <img src="images/S3_Bucket.png">
 
 ### 4. Networking (VPC, Subnets, Routing)
@@ -56,15 +56,13 @@ By decoupling the static media from the compute instance, this architecture redu
 <img src="images/Route_Table.png">
 <img src="images/Internet_Gateway.png">
 
-```
 
 # 👨‍💻 Author: Parth Biswas
-    GitHub: [@ParthBiswas](https://github.com/ParthBiswas)
-    <br>
-    LinkedIn: [ParthBiswas](https://linkedin.com/in/parthubiswas)
-    <br>
-    Email: Parthurmibiswas@gmail.com
+  GitHub: [@ParthBiswas](https://github.com/ParthBiswas)
+  <br>
+  LinkedIn: [ParthBiswas](https://linkedin.com/in/parthubiswas)
+  <br>
+  Email: Parthurmibiswas@gmail.com
 
-```
 ---
 *If you found this lab helpful, feel free to leave a ⭐ on the repository!*
