@@ -52,8 +52,10 @@ By decoupling the static media from the compute instance, this architecture redu
 **Public Subnet:**
 <img src="images/Public_Subnet.png">
 
-**Route Table & Internet Gateway:**
+**Route Table:**
 <img src="images/Route_Table.png">
+
+**Internet Gateway:**
 <img src="images/Internet_Gateway.png">
 
 
